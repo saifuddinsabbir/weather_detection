@@ -29,9 +29,11 @@ const Banner = () => {
         setTemperature(data.current_weather.temperature);
       });
   }, [latitude]);
-  
+
   return (
     <div>
+
+
 
       <div className={styles.banner}>
         <div className={styles.background_wrapper}>

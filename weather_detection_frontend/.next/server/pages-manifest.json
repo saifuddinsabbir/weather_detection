@@ -2,6 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/classify": "pages/classify.js",
-  "/login": "pages/login.js"
+  "/": "pages/index.js",
+  "/user": "pages/user.js",
+  "/blog": "pages/blog.js",
+  "/user/edit": "pages/user/edit.js",
+  "/classify": "pages/classify.js"
 }

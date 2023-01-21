@@ -10,6 +10,9 @@ import spring from "../image/spring.jpg";
 import summer from "../image/Summer.jpg";
 import plus from "../image/plus.png";
 import Link from "next/link";
+import { AiFillPlusCircle } from "react-icons/ai"
+import { BiEdit } from "react-icons/bi"
+import { FaEdit, FiEdit } from 'react-icons/fa'
 
 function BlogCards() {
   return (
@@ -18,15 +21,13 @@ function BlogCards() {
         <h3>Blog</h3>
         <p>HOME / BLOG</p>
       </div>
-      <div className={styles.floating_button}>
-        <Link href="/classify">
-          <Image
-            className={styles.card_image}
-            src={plus}
-            alt="Picture of the author"
-          />
+      <div className="fixed p-3 rounded bg-navbar bottom-6 right-6 ">
+        <Link href="/blog/post">
+          <BiEdit size={30} color="#ffffff"></BiEdit>
         </Link>
+
       </div>
+
       <div className={styles.blog_container}>
         <div className={styles.blog_side_sec}>
           <BlogSideSection></BlogSideSection>

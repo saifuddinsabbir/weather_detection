@@ -23,21 +23,21 @@ const Footer = () => {
         </div>
 
         <div className={styles.appLink}>
-          <h3>Get the App</h3>
-          <div className={styles.appleLink}>
+          <h3 className="text-2xl ">Get the App</h3>
+          <div className=" border-l-4 pl-8 border-l-bermuda">
             <div className={styles.appLogo}>
               <a>
                 <img src={appleLogo.src}></img>
               </a>
             </div>
-            <div className={styles.appText}>
+            <div>
               <a>
                 <h6>Download on the</h6>
                 <h3>App Store</h3>
               </a>
             </div>
           </div>
-          <div className={styles.playStoreLink}>
+          <div className=" border-l-4 pl-8 border-l-bermuda">
             <div className={styles.playStoreLogo}>
               <a>
                 <img src={playStore.src}></img>
