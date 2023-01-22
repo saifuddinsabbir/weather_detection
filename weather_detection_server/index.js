@@ -16,6 +16,12 @@ async function server() {
         const database = client.db("Weather_Database")
         const weatherCollection = database.collection("weather")
         const userCollection = database.collection("users")
+
+        app.get('/users', async (req, res) => {
+            const result = await userCollection.find({}).toArray();
+            console.log(result)
+            res.json(result);
+        })
         app.get('/users/:userName', async (req, res) => {
             const userName = req.params.userName;
             const filter = { userName }

@@ -136,3 +136,13 @@
   .register_form .action button:nth-child(2):hover {
     background: #3c4d6d;
   }
+
+  .errorMessage{
+    color: #f90505;
+    font-size: 10px;
+}
+
+.acceptenceMessage{
+  color: green;
+  font-size: 10px;
+}
