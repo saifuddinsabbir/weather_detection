@@ -35,6 +35,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/blog.js"
     ],
+    "/blog/post": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/blog/post.js"
+    ],
     "/classify": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
