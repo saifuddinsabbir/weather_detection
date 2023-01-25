@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST={"../components/RichTextEditor.js -> jodit-react":{"id":"../components/RichTextEditor.js -> jodit-react","files":["static/chunks/node_modules_jodit-react_build_jodit-react_js.js"]}}
